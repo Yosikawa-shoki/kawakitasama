@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.map {
+  text-align: center;
+  list-style: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.h1_header {
+  text-align: center;
+}
+
+.h1_header_rireki {
+  text-align: center;
+  margin: 200px 0 0 0;
+}
+
+.h1_header_animetion {
+  margin: 200px 0 0 0;
+  text-align: center;
+}
+
+.rireki_nenndo {
+  text-align: center;
+  list-style: none;
+}
+
+.animeton_q {
+  margin: 0px 0 200px 0;
+}
+
+.fadeIn {
+  list-style: none;
+  -webkit-animation-name: fadeInAnime;
+          animation-name: fadeInAnime;
+  /*1で解説*/
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /*2で解説*/
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: 4s;
+          animation-iteration-count: 4s;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+}
+
+/*1で解説*/
+@-webkit-keyframes fadeInAnime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInAnime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
